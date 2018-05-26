@@ -37,7 +37,7 @@ You have to hand in **recorder_yourID.scd** with proper comments.
 ### Problem 1 (50%)
 1. Please record Twinkle Twinkle Little Star from the previous homework and save it as a wav file. You must record the whole piece of music, which means you can't execute ```s.stopRecording``` before the music ends. The recorded audio have to be **mono**. 
 2. If you can't open the exported file by a media player, load it in to Python and check whether your file satisfies the spec. (Python library ```soundfile``` recommended)
-3. You have to hand in the wav file named as **RecordAsWav_yourID.wav**.
+3. You have to hand in the wav file named as **LittleStar_yourID.wav**.
 
 ### Problem 2 (50%)
 1. Please record an ever playing music for **3 seconds** and save it as a wav file. The recorded audio have to be **stereo**.
