@@ -7,14 +7,6 @@ Thanks to the previous SuperCollider homework, we are capable of writing a simpl
 
 ## Recorder
 Write Audio to Harddisk
-### Description
-A Recorder allows you to write audio to harddisk, reading from a given bus and a certain number of channels.
-
-After making sure the server is booted, this is how you start recording in SuperCollider:
-```
-Server.default.prepareForRecord(path, numChannels);
-```
-By default, the global variable ```s``` refers to ```Server.default```, so you may replace ```Server.default``` with ```s```.
 
 ### ```.prepareForRecord**(path, numChannels)```
 Recording initialization. Allocates the necessary buffer for recording the server's output.
