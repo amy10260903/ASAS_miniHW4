@@ -8,12 +8,12 @@ Thanks to the previous SuperCollider homework, we are capable of writing a simpl
 ## Recorder
 Write Audio to Harddisk
 
-### ```.prepareForRecord**(path, numChannels)```
+### ```s.prepareForRecord**(path, numChannels)```
 Recording initialization. Allocates the necessary buffer for recording the server's output.
 * **path**    The path and the file name of the recorded file. 
 * **numChannels**    The number of output channels to record. 
   
-### ```.record(path, bus, numChannels, node, duration)```
+### ```s.record(path, bus, numChannels, node, duration)```
 Starts or resumes recording the output.
 * **path**    Optional if specified at ```.prepareForRecord```.
 * **bus**    Optional.
@@ -21,7 +21,8 @@ Starts or resumes recording the output.
 * **node**    Optional.
 * **duration**     If set, this limits recording to a given time in seconds. Optional if follow by ```.stopRecording```.
 
-### ```.stopRecording```
+### ```s.stopRecording```
+Stops recording, closes the file, and frees the associated resources.
 
 
 
