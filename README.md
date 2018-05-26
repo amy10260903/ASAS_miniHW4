@@ -17,22 +17,22 @@ Server.default.prepareForRecord(path, numChannels);
 By default, the global variable ```s``` refers to ```Server.default```, so you may replace ```Server.default``` with ```s```.
 
 ### Functons
-1. ```**.prepareForRecord**(path, numChannels)```
+```.prepareForRecord**(path, numChannels)```
 
-Recording initialization. Allocates the necessary buffer for recording the server's output.
-* **path**    The path and the file name of the recorded file. 
-* **numChannels**    The number of output channels to record. 
+      Recording initialization. Allocates the necessary buffer for recording the server's output.
+  * **path**    The path and the file name of the recorded file. 
+  * **numChannels**    The number of output channels to record. 
+  
+ ```.record(path, bus, numChannels, node, duration)```
 
-2. ```**.record**(path, bus, numChannels, node, duration)```
+  Starts or resumes recording the output.
+  * **path**    Optional if specified at ```.prepareForRecord```.
+  * **bus**    Optional.
+  * **numChannels**    Optional if specified at ```.prepareForRecord```.
+  * **node**    Optional.
+  * **duration**     If set, this limits recording to a given time in seconds. Optional if follow by ```.stopRecording```.
 
-Starts or resumes recording the output.
-* **path**    Optional if specified at ```.prepareForRecord```.
-* **bus**    Optional.
-* **numChannels**    Optional if specified at ```.prepareForRecord```.
-* **node**    Optional.
-* **duration**     If set, this limits recording to a given time in seconds. Optional if follow by ```.stopRecording```.
-
-3. ```**.stopRecording**```
+ ```.stopRecording```
 
 
 
