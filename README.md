@@ -45,5 +45,5 @@ Please implement following tasks in **recorder.scd**. You have to hand in **reco
 2. You have to hand in the wav file named as **bubbles_yourID.wav**.
 
 ### Bonus (10%)
-1. Please record Twinkle Twinkle Little Star in **stereo** save it as a wav file..
+1. Please record Twinkle Twinkle Little Star in **stereo** and save it as a wav file..
 2. You have to hand in the wav file named as **bonus_yourID.wav**.
