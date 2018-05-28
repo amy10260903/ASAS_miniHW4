@@ -2,14 +2,12 @@
 # ASAS_miniHW4 SuperCollider  
 Due date: 2018/06/05
 
+
 # Recorder
 ## Overview
-
 Thanks to the previous SuperCollider homework, we are capable of writing a simple piece of music. Then, we might want to do further signal processing with our music on Python. But How? The easiest way is to record the audio we want and save it as a .wav file, so that we can load it into Python.
 
-## Recorder
-Write Audio to Harddisk
-
+## Functions
 ### ```s.prepareForRecord(path, numChannels)```
 Recording initialization. Allocates the necessary buffer for recording the server's output.
 * **path**    The path and the file name of the recorded file. 
@@ -44,6 +42,13 @@ Please implement following tasks in the given source codes **recorder.scd**. You
 1. Please record an ever playing music for **3 seconds** and save it as a wav file. The recorded audio have to be **stereo**.
 2. You have to hand in the wav file named as **bubbles_yourID.wav**.
 
-### Bonus (10%)
+### Bonus (5%)
 1. Please record Twinkle Twinkle Little Star in **stereo** and save it as a wav file..
 2. You have to hand in the wav file named as **bonus_yourID.wav**.
+
+
+# Open Sound Control (OSC)
+## Homework
+Please check the folder **"OSC"** for further instruction.
+
+### Bonus (5%)
