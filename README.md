@@ -1,5 +1,6 @@
 > EE6641 Analysis and Synthesis of Digital Audio Signals
-# ASAS_miniHW4  SuperCollider  Recorder
+# ASAS_miniHW4  SuperCollider  
+# Recorder er 
 Due date: 2018/06/05
 
 
