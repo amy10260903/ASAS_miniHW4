@@ -33,7 +33,7 @@ Stops recording, closes the file, and frees the associated resources.
 
 
 ## Homework
-Please implement following tasks in **recorder.scd**. You have to hand in **recorder_yourID.scd** with proper comments.
+Please implement following tasks in the given source codes **recorder.scd**. You have to hand in **recorder_yourID.scd** with proper comments.
 
 ### Problem 1 (50%)
 1. Please record Twinkle Twinkle Little Star from the previous homework and save it as a wav file. You must record the whole piece of music, which means you can't execute ```s.stopRecording``` before the music ends. The recorded audio have to be **mono**. 
