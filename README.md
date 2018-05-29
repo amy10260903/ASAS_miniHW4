@@ -1,5 +1,5 @@
 > EE6641 Analysis and Synthesis of Digital Audio Signals
-# ASAS_miniHW4 SuperCollider  
+# ASAS_TIG_HW4 SuperCollider  
 Due date: 2018/06/05
 
 
