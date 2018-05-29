@@ -2,14 +2,13 @@
 // TIG: Supercollider
 // Record audio to wav file
 //
-// Po-Chien, Hsu
+// Po-Chien Hsu
 // May 26, 2018
 
 
 // Problem 1
 // Please record Twinkle Twinkle Little Star from the previous homework,
 // and save it as a wav file.
-
 
 // write Twinkle Twinkle Little Star for both hands
 /////////////YOUR CODES HERE/////////////////
